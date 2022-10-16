@@ -10,4 +10,10 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+First step we created a codespace on github, I would imagine this is only needed once for the project but whatever. 
+
+Next I ran docker-compose up in the codespace terminal, this loads the front and back-end and I should be able to cnnect to the database. 
+
+[Create user here](https://obelusfamily-anythink-market-eet59-9qp6x79rgp9fqpg-3001.githubpreview.dev/register)
+
+Make sure to run all scripts in the next quests on one of the containers created by docker-compose up.  Also, you can use docker exec to run commands on a running container.
